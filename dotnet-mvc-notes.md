@@ -112,3 +112,10 @@ Car bmwBase = new Bmw(); // Bmw, Car’dan kalıtım aldığı için nesne oluş
 - Microsoft.EntityFrameworkCore Paketi  
 - Microsoft.EntityFrameworkCore.SqlServer Paketi  
 - NuGet console: `Scaffold-DbContext "ConnectionString"`
+
+### .NET 6 Güncellemeleri
+- **Startup.cs** kaldırıldı. .NET 5’te startup.cs içinde konfigürasyonlar yapılır ve program.cs'de bildirilirdi.  
+- .NET 6’da tüm konfigürasyonlar **program.cs** içinde yapılmaktadır.  
+- **Top Level Statements** → Using’ler, namespace vb. yazmaya gerek olmadan direkt yazdığın kod **main** metotta sayılır. Program.cs .NET 6’da bu şekilde yapılandırılmıştır.  
+- .NET 6’da **WebApplication** ve **WebApplicationBuilder** türevleri geldi. .NET 5’te bunun karşılığı **IHostBuilder** ve **Host** idi. Bu yapı, uygulamayı ayağa kaldırmak için kullanılır.  
+- Uygulama portları artık 5000 türevi yerine rastgele gelmektedir.
