@@ -92,6 +92,8 @@ Bir class yalnızca bir class’tan inherit edilebilir.
 - Struct'lar default olarak public'tir.
 - Structlar daha performanslıdır.
 
+---
+
 ## Virtual Keyword
 - Override edilebilir anlamına gelir. Virtual metodun gövdesi vardır, isteğe bağlı override edilebilir.
 - Hem property hem de metodlar virtual olabilir.
@@ -102,6 +104,8 @@ Bir class yalnızca bir class’tan inherit edilebilir.
 ## Sealed Class ve Metod
 - Sealed class: Miras alınamayan class'tır.
 - Sealed metod: İlgili metodun override edilmesini önler.
+
+---
 
 ## Delegate
 - Bir metoda referans veren yapıdır.
