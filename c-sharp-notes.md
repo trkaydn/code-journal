@@ -2,6 +2,10 @@
 
 *02 Mayıs 2021 - Tarık Aydın*
 
+* Strongly-typed bir dildir. Değişken tipi belirtilmek zorundadır.
+
+* Data Types: Built-in ve user defined veri tipleridir. Ayrıca, value types (stack) ve reference types (heap) olarak ayrılır.
+
 * Bütün class’lar object tipindedir.  
 
 * Switch statement’te case ve default break ile kapatılır, default değer verilebilir.  
@@ -26,8 +30,12 @@
 
 * Metotlar kod fazlalığından kurtarır.  
 * Sınıf en geniş kümedir. Nesne en alt elemandır.  
-* Private erişimde get set kullanılır.  
+* Private erişimde get set kullanılır. Property'ler, private field'lara erişim için kullanılır. 
 * RAM’de “stack” değer tiplerini (int, string…) hafızada tutar. “Heap” ise referans türlerini (object, class…) tutar.
+
+* **Boxing:** Value type'tan reference type'a dönüştürme işlemi.
+* **Unboxing:** Reference type'tan value type'a dönüştürme işlemi.
+* **Parse:** String'ten başka bir türe dönüştürme işlemi.
 
 * `i += 1` i’yi bir artırır.  
 `i++` i’yi bir artırır.  
