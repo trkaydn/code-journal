@@ -2,6 +2,12 @@
 
 *28 Ocak 2024 - Tarık Aydın*
 
+- Entity Framework Core Kurulum
+  + Microsoft.EntityFrameworkCoreTools Paketi (Code First için)  
+  + Microsoft.EntityFrameworkCore Paketi  
+  + Microsoft.EntityFrameworkCore.SqlServer Paketi  
+  + NuGet console: `Scaffold-DbContext "ConnectionString"`
+
 * Database first kullanmak gerekiyorsa scaffold-dbcontext komutu ile context ve entity’ler otomatik oluşturulur.  
 - Code First:  
 	+ Migration’lara manuel olarak müdahale edilmemelidir.  

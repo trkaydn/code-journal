@@ -107,12 +107,6 @@ Car bmwBase = new Bmw(); // Bmw, Car’dan kalıtım aldığı için nesne oluş
 - **Dynamic** → JS’deki var mantığıyla aynı. Her türe dönüşebilen değişken. Tavsiye edilmez.  
 - **Object** → int, string vb. tüm tipler object’e atanabilir.  
 
-### Entity Framework Core Kurulum
-- Microsoft.EntityFrameworkCoreTools Paketi (Code First için)  
-- Microsoft.EntityFrameworkCore Paketi  
-- Microsoft.EntityFrameworkCore.SqlServer Paketi  
-- NuGet console: `Scaffold-DbContext "ConnectionString"`
-
 ### .NET 6 Güncellemeleri
 - **Startup.cs** kaldırıldı. .NET 5’te startup.cs içinde konfigürasyonlar yapılır ve program.cs'de bildirilirdi.  
 - .NET 6’da tüm konfigürasyonlar **program.cs** içinde yapılmaktadır.  

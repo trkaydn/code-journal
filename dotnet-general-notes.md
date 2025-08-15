@@ -1,4 +1,4 @@
-# Genel .Net Geliştirici Notlarım 
+# Genel .Net Geliştirici Notları 
 
 *09 Haziran 2024 - Tarık Aydın*
 
@@ -113,16 +113,7 @@
 
 ## Sık Kullanılan NuGet Paketleri
 
-- **AspNetCoreRateLimit**: Denial of Service saldırısını bu library ile önleyebiliriz.  
-  - IP rate limit ve client ID rate limit uygulanabilir.
-
-- **Smidge**: ASP.NET Core için bundling-minification library.  
-  - CSS ve JavaScript’leri sıkıştırmada kullanılabilir.
-
-- **Hangfire**: Windows service veya task scheduler kullanmaya gerek kalmadan job oluşturmaya yarayan library’dir.  
-  - Küçük projelerde RabbitMQ yerine kullanılabilir.  
-  - Job’lar veritabanına kayıt edildiği için uygulama kapatılsa da tekrar ayağa kalktığında devam eder.  
-  - Zamanlanmış, tek seferlik veya sıralı job’lar oluşturulabilir.
-
-- **NLog**: Loglama için library. 
-  - DB ya da file’a loglama yapabilir.
+- **AspNetCoreRateLimit**: Denial of Service saldırısını bu library ile önleyebiliriz. IP rate limit ve client ID rate limit uygulanabilir.
+- **Smidge**: ASP.NET Core için bundling-minification library. CSS ve JavaScript’leri sıkıştırmada kullanılabilir.
+- **Hangfire**: Windows service veya task scheduler kullanmaya gerek kalmadan job oluşturmaya yarayan library’dir. Küçük projelerde RabbitMQ yerine kullanılabilir. Job’lar veritabanına kayıt edildiği için uygulama kapatılsa da tekrar ayağa kalktığında devam eder. Zamanlanmış, tek seferlik veya sıralı job’lar oluşturulabilir.
+- **NLog**: Loglama için library. DB ya da file’a loglama yapabilir.
